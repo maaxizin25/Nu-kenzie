@@ -1,0 +1,65 @@
+.container-finance {
+  width: 100%;
+  min-height: 627px;
+  margin-left: 59px;
+}
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.list-buttons {
+  display: flex;
+  gap: 16px;
+}
+.list-buttons > button {
+  display: flex;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--color-grey-3);
+  cursor: pointer;
+}
+
+/*  UL card */
+.ul-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+.li-card {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--color-grey-1);
+  height: 86px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.span-value {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.span-value > img {
+  width: 22px;
+  margin-left: 60px;
+  cursor: pointer;
+}
+.entry {
+  border-left: 5px solid green;
+}
+.output {
+  border-left: 5px solid var(--color-grey-2);
+}
+.lancamentoImg {
+  max-width: 100%;
+}
+@media (max-width: 965px) {
+  .container-finance {
+    margin: 0;
+  }
+}

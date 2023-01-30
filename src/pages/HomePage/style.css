@@ -1,0 +1,30 @@
+.container-home {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.div-nu {
+  width: 347px;
+  max-width: 100%;
+  display: flex;
+  gap: 30px;
+  text-align: start;
+  flex-direction: column;
+}
+.div-nu > h2 {
+  font-size: 38px;
+  line-height: 48px;
+}
+.div-nu > p {
+  font-size: 16px;
+}
+.div-nu > button {
+  cursor: pointer;
+  width: 241px;
+  height: 48px;
+  background: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  border-radius: 8px;
+  font-size: 16px;
+  color: #ffffff;
+}
